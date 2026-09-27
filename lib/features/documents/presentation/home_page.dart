@@ -14,13 +14,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text("Home"),
+        title: Text("DOMS"),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: .center,
           children: [
-            const Text('Hello World!'),
+            const Text('My Documents'),
           ],
         ),
       ),
