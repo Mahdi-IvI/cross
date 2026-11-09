@@ -1,0 +1,145 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5560509513873902829",
+      "lastPropertyId": "15:8971528542338279627",
+      "name": "CachedItem",
+      "properties": [
+        {
+          "id": "1:753177884455576709",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1967155297575446755",
+          "name": "scope",
+          "indexId": "1:77343963942206582",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "3:6459624306755260298",
+          "name": "serverId",
+          "type": 6
+        },
+        {
+          "id": "4:9053875742675536316",
+          "name": "isFolder",
+          "type": 1
+        },
+        {
+          "id": "5:4089669626279246786",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:6659006705458670394",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "7:1620594777222789790",
+          "name": "parentId",
+          "type": 6
+        },
+        {
+          "id": "8:6469280924259569954",
+          "name": "fileName",
+          "type": 9
+        },
+        {
+          "id": "9:2754644700755101386",
+          "name": "sizeBytes",
+          "type": 6
+        },
+        {
+          "id": "10:5765687705866256144",
+          "name": "hasFile",
+          "type": 1
+        },
+        {
+          "id": "11:8794765592727131071",
+          "name": "localPath",
+          "type": 9
+        },
+        {
+          "id": "12:3834145840934126923",
+          "name": "isFavorite",
+          "type": 1
+        },
+        {
+          "id": "13:572390566525381531",
+          "name": "isPending",
+          "type": 1
+        },
+        {
+          "id": "14:8966667582914189272",
+          "name": "isDeleted",
+          "type": 1
+        },
+        {
+          "id": "15:8971528542338279627",
+          "name": "syncError",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3793442948173287536",
+      "lastPropertyId": "4:8997136990316238639",
+      "name": "PendingOperation",
+      "properties": [
+        {
+          "id": "1:8969676136910436246",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3184688067079246078",
+          "name": "scope",
+          "indexId": "2:8016572424736223261",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "3:7950171761604812169",
+          "name": "itemId",
+          "type": 6
+        },
+        {
+          "id": "4:8997136990316238639",
+          "name": "action",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:7118122252689414004",
+  "lastIndexId": "3:6246827557768416254",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    7118122252689414004
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8430608761319510516,
+    2830867960754576942,
+    4498325498057035060,
+    2103960114988130755,
+    4207098464934779583,
+    5675758499647567367,
+    4117167260285250729
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
